@@ -120,3 +120,7 @@
     //array
     $frutas = array("Maçã", "Banana", "Laranja");
     echo $frutas[0]; //imprime o primeiro item, índice 0
+
+    foreach ($frutas as $fruta) {
+        echo $fruta . "<br>";
+    }
